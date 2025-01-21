@@ -306,7 +306,7 @@ def main():
                         })
     else:
         st.info("👋 Hi, Welcome to FolderFlow - More than just 'search' \n\n"
-                "Prepared by Dibyanshu and Sajjad - Happy Exploring!\n\n"
+                "Prepared by Dibyanshu Dash and Sajjad Nakhwa - Happy Exploring!\n\n"
                 "Kindly follow these steps to begin:\n"
                 "1. Enter your Google API key in the sidebar\n"
                 "2. Upload your documents\n"
