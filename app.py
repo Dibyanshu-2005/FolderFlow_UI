@@ -226,22 +226,9 @@ def main():
                 st.session_state.manager = manager
                 st.session_state.system_ready = True
                 # Option 1: Custom styled success message with bright colors
-                st.sidebar.markdown("""
-                    <div style='background-color: #1aff1a; 
-                                color: #000000;
-                                padding: 10px;
-                                border-radius: 5px;
-                                font-weight: bold;'>
-                        ✅ Documents processed successfully!
-                    </div>
-                    """, 
-                    unsafe_allow_html=True
-                )
-                
-                # Or Option 2: White background with green text
                 #st.sidebar.markdown("""
-                    #<div style='background-color: white; 
-                                #color: #00b300;
+                    #<div style='background-color: #1aff1a; 
+                                #color: #000000;
                                 #padding: 10px;
                                 #border-radius: 5px;
                                 #font-weight: bold;'>
@@ -250,6 +237,19 @@ def main():
                     #""", 
                     #unsafe_allow_html=True
                 #)
+                
+                # Or Option 2: White background with green text
+                st.sidebar.markdown("""
+                    <div style='background-color: white; 
+                                color: #00b300;
+                                padding: 10px;
+                                border-radius: 5px;
+                                font-weight: bold;'>
+                        ✅ Documents processed successfully!
+                    </div>
+                    """, 
+                    unsafe_allow_html=True
+                )
             else:
                 # Error message with better visibility
                 st.sidebar.markdown("""
